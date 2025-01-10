@@ -553,7 +553,7 @@
   categories: strings interfaces
   tags: pcre pcre2 regex
 
-# --- File input / output ---
+# --- File input / output, parsing ---
 
 - name: atomsk
   github: pierrehirel/atomsk
@@ -570,6 +570,14 @@
   license: BSD-3-Clause
   version: none
 
+- name: FortranPEG
+  github: ECYS-FIUSAC/fortranpeg
+  description: An online parser generator that uses a PEG grammar and generates a Fortran module with a recursive descent parser.
+  categories: parser-generator
+  tags: parser fortran parser-generator peg recursive-descent-parser
+  version: none
+  license: MIT
+  
 - name: pFlogger
   github: Goddard-Fortran-Ecosystem/pFlogger
   description: A parallel Fortran logger (based on the design of the Python logger)
